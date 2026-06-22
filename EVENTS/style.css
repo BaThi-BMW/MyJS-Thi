@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.playground-container {
+    max-width: 650px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #0f172a;
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 25px;
+}
+
+.event-card {
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.event-card h3 {
+    margin-top: 0;
+    color: #334155;
+    font-size: 1.1rem;
+}
+
+code {
+    background: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #0f172a;
+}
+
+/* Định dạng chung cho input, select, button */
+button, input, select {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    margin-top: 5px;
+}
+
+button {
+    background: #0f172a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #1e293b;
+}
+
+input[type="text"] {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.result-text {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0f172a;
+}

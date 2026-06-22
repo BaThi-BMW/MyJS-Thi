@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5: Event Playground</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="playground-container">
+        <h2>Bài 5 — Event Playground (Sân chơi Sự kiện)</h2>
+        <hr>
+
+        <div class="event-card">
+            <h3>1. Sự kiện <code>click</code></h3>
+            <button id="btnClick">Bấm vào đây</button>
+            <p id="clickResult" class="result-text">Chưa có tương tác.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>2. Sự kiện <code>change</code></h3>
+            <label for="colorSelect">Chọn màu chữ:</label>
+            <select id="colorSelect">
+                <option value="#334155">Mặc định (Xám)</option>
+                <option value="#e11d48">Màu Đỏ (Red)</option>
+                <option value="#2563eb">Màu Xanh Dương (Blue)</option>
+                <option value="#16a34a">Màu Xanh Lá (Green)</option>
+            </select>
+            <p id="changeResult" class="result-text">Văn bản này sẽ thay đổi màu sắc!</p>
+        </div>
+
+        <div class="event-card">
+            <h3>3. Sự kiện <code>keyup</code></h3>
+            <input type="text" id="nameInput" placeholder="Nhập tên của bạn...">
+            <p class="result-text">Xem trước: <span id="keyupResult" class="highlight">...</span></p>
+        </div>
+
+        <div class="event-card">
+            <h3>4. Sự kiện <code>submit</code></h3>
+            <form id="sampleForm">
+                <input type="text" id="emailInput" placeholder="Nhập email để đăng ký...">
+                <button type="submit">Gửi Form</button>
+            </form>
+            <p id="submitResult" class="result-text"></p>
+        </div>
+    </div>
+
+    <script src="../js/events.js"></script>
+</body>
+</html>
